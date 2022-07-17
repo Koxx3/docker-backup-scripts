@@ -3,8 +3,7 @@
 # by piscue
 
 # Setting variables
-backup_path="/home/core/backups"
-#backup_path="/home/core/backups"
+backup_path="/home/debian/docker_backups"
 tar_opts="--exclude='/var/run/*'"
 cd "${BASH_SOURCE%/*}" || exit
 
